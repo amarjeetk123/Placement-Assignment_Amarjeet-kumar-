@@ -97,6 +97,50 @@ body {
     display: flex;
 }
 
+
+/* CSS for pure hardwork sevtion  */
+/* css for pure hardwork section  */
+.line-div{
+    display: flex;
+    justify-content: center;
+}
+.line-pure{
+    background: #f7a654;
+    width: 170px;
+    text-align: center;
+    height: 3px;
+}
+.third-main .heading{
+    margin-top: 50px;
+}
+.third-main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.third-containt{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 20px;
+width: 90%;
+}
+.third-containt img{
+   width: 230px;
+}
+.first3 , .second3, .third3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.third-containt h1{
+    color: var(--primary-color);
+}
+.third-containt h2{
+    color: #454545;
+}
+
 /* .container-fluid a img{
     width: 200px;  
 } */
@@ -257,5 +301,249 @@ body {
         /* background-color: #23C4ED; */
         font-size: 20px;
     }
+}
+
+
+
+/* CSS for live program section  */
+.twelve {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.twelve h1 {
+    font-size: 60px;
+    font-weight: 500;
+    color: var(--heading-color);
+    align-items: center;
+    margin-top: 30px;
+}
+
+.twelve .institute-logo {
+    margin: 60px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.twelve img {
+    height: 200px;
+}
+
+.hackthon h1 {
+    text-align: center;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.heading {
+    width: 100%;
+    color: var(--primary-color);
+    font-weight: 600;
+    text-align: center;
+    font-size: 3.5rem;
+    line-height: 1;
+}
+.live-program{
+    margin-top: 100px;
+}
+.live-program .live-sub {
+    text-align: center;
+}
+
+.slider_container {
+    width: 100%;
+    height: auto;
+    padding: 50px 0px 40px;
+}
+
+.same11 {
+    padding: 20px 20px;
+    border-radius: 20px;
+    background-color: #fdf7f7;
+    overflow: hidden;
+    min-height: 450px;
+   
+}
+
+.same11:hover {
+    cursor: pointer;
+}
+
+.same11 h1 {
+    font-weight: 600;
+    margin-top: 35px;
+    color:rgb(35, 60, 123) ;
+    font-size: 25px;
+    height: 60px;
+}
+
+.same11 h2 {
+    font-weight: 400;
+   margin: 20px 0px;
+    color: var(--heading-color);
+    font-size: 22px;
+    text-align: left;
+}
+
+.same11 h3 {
+    font-weight: 500;
+    color: #000000;
+    font-size: 23px;
+}
+
+.course-btn {
+    height: 40px;
+    width: 80px;
+    background-color: var(--main-color);
+    color: #ffffff;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+}
+
+.containet-box2 img {
+    margin-left: 30px;
+    border-radius: 20px;
+}
+.slider_container .last{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.live-sub{
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.view-more{
+    cursor: pointer;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+.test h3{
+    margin-top: 50px;
+}
+
+
+/* CSS for footer  */
+footer {
+    background-color: #233c7b;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    color: #ffffff;
+    padding: 50px 0px;
+}
+
+footer .first {
+    width: 33%;
+}
+
+footer .second {
+    width: 33%;
+}
+
+footer .third {
+    width: 20%;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+footer h1 {
+    font-size: 30px;
+}
+
+.social-media {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.fl-al {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.line1,
+.line2,
+.line3,
+.line {
+    background-color: #f7a654;
+    margin: 10px 0px;
+}
+
+.line2 {
+    height: 2px;
+    width: 300px;
+}
+
+.line1 {
+    height: 2px;
+    width: 80%;
+    margin: 10px 0px;
+}
+
+.line3 {
+
+    height: 2px;
+    width: 90%;
+
+    margin: 10px 0px;
+}
+
+footer .third h2 {
+    margin-top: 20px;
+}
+
+.our-product {
+    padding: 50px 0px 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.our-product img {
+    height: 100px;
+
+}
+
+.our-product .box {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-product h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: var(--primary-color);
+}
+
+.our-product h2 {
+    margin: 10px 0px;
+    font-size: 1.123rem;
+    line-height: 1.75rem;
+    color: #454545;
+    margin: 8px 0px;
+    text-align: center;
+    width: 80%;
 }
 
